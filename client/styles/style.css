@@ -1,0 +1,175 @@
+span{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+h1{
+  margin: 0px auto;
+/*  align-content: center;
+*/  
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 15px;
+}
+
+form{
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+}
+
+input{
+  display: block;
+}
+
+/* logout page */
+/*div.exit{
+  padding: 10% 40%;
+}*/
+
+.intro{
+  margin-top: 200px;
+}
+
+#input{
+  margin: 0px auto;
+  display: block;
+}
+
+.form-control{
+  align-content: center;
+  width: 50px;
+}
+
+.user{
+  font-family: 'Quicksand', sans-serif;
+  padding: 13px;
+  margin: 13px;
+  color: white;
+  background-color: #0071ed;
+  border-radius: 15px;
+  display: block;
+  box-shadow: 0 7px 4px -4px gray;
+}
+
+.watson{
+  font-family: 'Quicksand', sans-serif;
+  padding: 13px;
+  margin: 13px;
+  color: black;
+  background-color: #d8d8d8;
+  border-radius: 15px;
+  display: block;
+  box-shadow: 0 6px 4px -4px gray;
+
+}
+
+#container{
+  width: 900px;
+  margin: 0px auto;
+}
+
+#app-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 3%;
+  color: gray;
+}
+
+
+.login {
+  text-align: center !important;
+  margin: auto;
+  vertical-align: middle;
+  padding-top: 5%;
+}
+
+.login-input {
+  width: 40% !important;
+  text-align: center !important;
+  margin: auto !important;
+}
+
+
+
+.messageList-container {
+  height: 590px;
+  display: block;
+  padding-bottom: 30px;
+  padding: 10px 30px;
+
+  overflow: auto;
+}
+
+.userIsTyping {
+  font-size: 14pt;
+}
+
+.messageList {
+  list-style-type: none;
+  font-size: 14pt;
+}
+
+.chatNotifications {
+  color: grey;
+  font-size:2 10pt;
+  padding: 10px 400px;
+
+
+}
+
+.userResponseForm {
+  display: block;
+  padding: 0% -50%;
+  position: fixed;
+  bottom: 0;
+  margin: 15px;
+  width: 66%;
+
+}
+
+.submit-button-container {
+  padding-top: 10px !important;
+  margin: auto;
+}
+
+.submit-button {
+  width: 40%;
+}
+
+.lobby-master-div {
+  text-align: center;
+
+}
+
+.roomContainer {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.sideTableLeft {
+  text-align: center;
+}
+
+.sideTableRight {
+  text-align: center;
+}
+
+.middleTableElement {
+  width: 70%;
+}
+
+/*tr {
+  /*border: solid ;
+}
+
+.room {
+}
+
+.token-header {
+  text-align: center !important;
+}

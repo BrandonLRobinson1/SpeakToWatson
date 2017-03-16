@@ -1,0 +1,32 @@
+<div>
+  <h1>{{roomName}}</h1>
+</div>
+<div>
+  <div class="messageList-container" scroll-glue="glued">
+    <ul class="messageList"></ul>
+  </div>
+  <form class="userResponseForm" name="userResponseForm">
+    <div class="userIsTyping">
+    </div>
+    <div class="input-group">
+      <input class="messageTextBox form-control" placeholder="Artificial Intelligence at your fingertips..."
+             ng-model="userMessage" ng-keyup="showTyping()" />
+      <span class="input-group-btn">
+        <button class="btn btn-info" ng-click="postMessage()">Send</button>
+        <button class="btn btn-danger" ng-click='leaveRoom()'> Leave </button>
+
+<!--         <ui-select>
+
+        </ui-select> -->
+
+<!--         <select class="selectpicker" data-style="btn-success" >
+          <option ng-click='changeBackGround1()'>image1</option>
+          <option ng-click='changeBackGround2()'>image2</option>
+        </select> -->
+        <button class="btn btn-warning" ng-click='changeBackGround1()'>Change Background</button>
+      </span>
+    </div>
+    <span>
+    </span>
+  </form>
+</div>

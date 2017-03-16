@@ -1,0 +1,38 @@
+{
+  "name": "tremendous-turnips",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tremendous-turnips/tremendous-turnips.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tremendous-turnips/tremendous-turnips/issues"
+  },
+  "homepage": "https://github.com/tremendous-turnips/tremendous-turnips#readme",
+  "dependencies": {
+    "angular-emoji-filter-hd": "0.0.9",
+    "angularjs-scroll-glue": "^2.1.0",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "emojione": "^2.2.7",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "jquery": "^3.1.1",
+    "mysql": "^2.12.0",
+    "path": "^0.12.7",
+    "prompt-sync": "^4.1.4",
+    "sequelize": "^3.27.0",
+    "sequelize-cli": "^2.4.0",
+    "sequelize-heroku": "^1.0.0",
+    "socket.io": "^1.4.5",
+    "watson-developer-cloud": "^2.14.0"
+  }
+}

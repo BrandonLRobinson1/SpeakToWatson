@@ -1,0 +1,44 @@
+<button class='btn btn-danger' ng-click='leaveRoom()'> Lobby </button>
+
+
+<select ng-model='selectFilter' ng-value='session[1]' ng-options='session[1] for session in data.sessions'>
+</select>
+<div> SESSION: {{selectFilter[0]}}</div>
+<div> CHATROOM: {{selectFilter[1]}}</div>
+<div> OPPONENT: {{selectFilter[2]}}</div>
+<div ng-repeat='messages in selectFilter.slice(3, session.length)'>
+  <div> {{messages.user}}: {{messages.text}} </div>
+</div>
+<!-- <div ng-repeat='session in data.sessions'>
+</div> -->
+<!--< h2 class="token-header">{{ chatroom }}</h2>
+<h3>Stats</h3>
+<h4>Battle duration: {{ duration }}</h4>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-block">
+        <h4 class="card-title">You</h4>
+        <p class="card-text"></p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">word count: {{ userWordCount }}</li>
+      </ul>
+      <div class="card-block">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-block">
+        <h4 class="card-title">{{ opponent }}</h4>
+        <p class="card-text"></p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">word count: {{ opponentWordCount }}</li>
+      </ul>
+      <div class="card-block">
+      </div>
+    </div>
+  </div>
+</div> -->

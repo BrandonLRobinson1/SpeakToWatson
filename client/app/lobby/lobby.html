@@ -1,0 +1,21 @@
+<div class='lobby-master-div'>
+  <h1> Lobby </h1>
+  <button class='btn btn-warning' ng-click='redirectToToken()'> Tokens </button>
+  <button class='btn btn-warning' ng-click='logout()'> Logout </button>
+</div>
+
+<div class='roomContainer'>
+  <table align='center' class='table'>
+
+    <tr class='room' ng-repeat='room in allRooms.rooms track by $index'>
+      <td class='sideTableLeft'> <button type="button" class="btn btn-info lobbyButtonLeft" class ng-show="!room.firstUser" ng-click='insertUser($index, 1, room.roomName)'> JOIN </button>
+      <span ng-show="room.firstUser"> {{room.firstUser}}</span>
+      </td>
+      <td class='middleTableElement'> <span> {{room.roomName}}</span> </td>
+      <td class='sideTableRight'>
+        <button type="button" class="btn btn-info lobbyButtonRight" ng-show="!room.secondUser" ng-click='insertUser($index, 2, room.roomName)'> JOIN </button>
+        <span ng-show="room.secondUser"> {{room.secondUser}}</span>
+      </td>
+    </tr>
+  </table>
+</div>
